@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct CustomView: View {
+    let color: Color
+    let text: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(text).background(color)
     }
 }
 
 struct CustomView_Previews: PreviewProvider {
     static var previews: some View {
-        CustomView()
+        CustomView(color: Color.red, text: "hello")
     }
 }

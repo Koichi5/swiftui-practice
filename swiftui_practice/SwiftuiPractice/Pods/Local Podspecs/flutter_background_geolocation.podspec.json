@@ -1,0 +1,38 @@
+{
+  "name": "flutter_background_geolocation",
+  "cocoapods_version": ">= 1.10.0",
+  "version": "4.9.0",
+  "summary": "The most sophisticated background location tracking & geofencing module with battery-conscious motion-detection intelligence for iOS and Android.",
+  "description": "The most sophisticated background location tracking & geofencing module with battery-conscious motion-detection intelligence for iOS and Android.",
+  "homepage": "https://github.com/transistorsoft/flutter_background_geolocation",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Transistor Software": "info@transistorsoft.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "CocoaLumberjack": [
+      "~> 3.7.2"
+    ]
+  },
+  "libraries": [
+    "sqlite3",
+    "z"
+  ],
+  "vendored_frameworks": [
+    "TSLocationManager.xcframework"
+  ],
+  "static_framework": true,
+  "platforms": {
+    "ios": "9.0"
+  }
+}
